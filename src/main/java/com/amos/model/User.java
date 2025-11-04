@@ -24,7 +24,7 @@ public class User {
     private String email;
     private String password;
 
-    private USER_ROLE role;
+    private USER_ROLE role=USER_ROLE.ROLE_CUSTOMER;
 
     // When I first fetch the user I might not need the list of orders at first
     @JsonIgnore
