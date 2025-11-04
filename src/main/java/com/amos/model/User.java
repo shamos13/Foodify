@@ -10,10 +10,11 @@ import lombok.NoArgsConstructor;
 import java.util.ArrayList;
 import java.util.List;
 
-@Entity
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Entity
 @Table(name = "users")
 public class User {
 
